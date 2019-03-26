@@ -8,7 +8,7 @@ ERRFILENAME="$LOGDIRECTORY/ERRORS.txt"
 CURRENTUSER=`whoami`
 
 # Download scripts
-ARTIFACTSURL="https://raw.githubusercontent.com/jadarsie/azurestack-gallery/log-collector"
+ARTIFACTSURL="https://raw.githubusercontent.com/deaborch/azurestack-gallery/master"
 curl -s -O $ARTIFACTSURL/diagnosis/common.sh;
 sudo chmod 744 common.sh
 

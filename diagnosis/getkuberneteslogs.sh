@@ -141,7 +141,7 @@ SCRIPTSFOLDER="$LOGFILEFOLDER/scripts"
 mkdir -p $LOGFILEFOLDER/scripts
 
 # Download scripts from github
-ARTIFACTSURL="${ARTIFACTSURL:-https://raw.githubusercontent.com/msazurestackworkloads/azurestack-gallery/master}"
+ARTIFACTSURL="${ARTIFACTSURL:-https://raw.githubusercontent.com/deaborch/azurestack-gallery/master}"
 download_scripts $ARTIFACTSURL
 
 if [ -n "$MASTER_HOST" ]

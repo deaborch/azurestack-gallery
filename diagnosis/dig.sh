@@ -62,7 +62,7 @@ fi
 LOGDIRECTORY=$1
 ERRFILE="$LOGDIRECTORY/ISSUES.txt"
 
-ARTIFACTSURL="${ARTIFACTSURL:-https://raw.githubusercontent.com/msazurestackworkloads/azurestack-gallery/master}"
+ARTIFACTSURL="${ARTIFACTSURL:-https://raw.githubusercontent.com/deaborch/azurestack-gallery/master}"
 download_scripts $ARTIFACTSURL
 
 source scripts/detectors.sh $ERRFILE
